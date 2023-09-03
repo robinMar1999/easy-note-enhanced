@@ -1,0 +1,10 @@
+.Note {
+    border: 1px solid black;
+    padding: 16px;
+    margin: 64px auto;
+    width: 70%;
+}
+
+.NotesList {
+    width: 100%;
+}

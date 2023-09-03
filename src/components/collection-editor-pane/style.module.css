@@ -1,0 +1,79 @@
+.CollectionEditorPane {
+    flex-grow: 1;
+    height: calc(100vh - 48px);
+}
+
+.Tabs {
+    display: flex;
+    /*background: #616161;*/
+    background: #39434c;
+    height: 32px;
+}
+
+.Tab {
+    color: #fdc200;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Tab:hover {
+    background: #fdc200;
+    color: #223239;
+    cursor: pointer;
+}
+
+.Tab_title {
+    width: fit-content;
+    padding: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*.Tab_title:hover {*/
+/*    background: #fdc200;*/
+/*    color: #223239;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.X_button {
+    font-weight: 300;
+    padding: 0 8px;
+    margin: 0 8px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.X_button:hover {
+    cursor: pointer;
+}
+
+.Tab.Selected {
+    background: #fdc200;
+    color: #223239;
+}
+
+.TabEditor {
+    display: none;
+    width: 100%;
+    height: calc(100% - 32px);
+}
+
+.Visible {
+    display: block;
+}
+
+.EmptyTab {
+    height: calc(100% - 32px);
+    color: #00b2a6;
+    background: #19262b;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}

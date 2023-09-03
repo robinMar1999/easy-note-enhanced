@@ -1,0 +1,28 @@
+.ToggleEdit {
+    position: absolute;
+    width: 50px;
+    right: 40px;
+    z-index: 5;
+    top: 20px;
+    color: #fdc200;
+    cursor: pointer;
+    padding: 4px;
+    border: 1px solid #fdc200;
+    border-radius: 8px;
+    background: none;
+}
+
+.Title {
+    display: none;
+    position: absolute;
+    background: #19262b;
+    width: max-content;
+    padding: 0 4px;
+    bottom: -70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ToggleEdit:hover > .Title {
+    display: block;
+}

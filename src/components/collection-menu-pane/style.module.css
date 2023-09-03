@@ -1,0 +1,107 @@
+.CollectionMenuPane {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #223239;
+}
+
+.RootActions {
+    width: 100%;
+    height: 32px;
+    background: #f9ce00;
+    color: #223239;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.RootActionItem {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    margin: 0 8px;
+    position: relative;
+    overflow: visible;
+}
+
+.Title {
+    display: none;
+    z-index: 5;
+    font-size: 12px;
+    color: white;
+    border: 0.1px solid white;
+    background: #223239;
+    position: absolute;
+    font-weight: 100;
+    padding: 0 4px;
+    width: max-content;
+    bottom: -70%;
+    left: 50%;
+    /*transform: translateX(-50%);*/
+}
+
+.RootActionItem:hover > .Title {
+    display: block;
+}
+
+.CollectionInfo {
+    width: 100%;
+    height: calc(100% - 32px);
+    text-align: left;
+    padding: 16px 12px;
+    position: relative;
+    overflow: scroll;
+    background: #223239;
+    color: #a5c5cf;
+}
+
+.CollectionTitle {
+    width: max-content;
+    font-weight: bold;
+}
+
+.ShiftFromLeft {
+    width: max-content;
+    position: relative;
+    left: 24px;
+}
+
+.CollectionFolder {
+    width: max-content;
+    position: relative;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.CollectionFolder_name {
+    width: max-content;
+    position: relative;
+    margin-right: 32px;
+}
+
+.CollectionFile {
+    width: max-content;
+    position: relative;
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 0.95rem;
+    margin-right: 32px;
+}
+
+.CollectionFile:hover {
+    cursor: pointer;
+}
+
+.Resizable {
+    display: none;
+    min-width: 15%;
+    max-width: 40%;
+    max-height: calc(100vh - 48px);
+}
+
+.Visible {
+    display: block;
+}

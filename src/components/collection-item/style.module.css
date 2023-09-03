@@ -1,0 +1,22 @@
+.CollectionItem {
+    width: 60%;
+    margin: 16px auto;
+    padding: 32px 0;
+    box-shadow: 3px 3px 3px #b1afaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.Title {
+    width: 30%;
+}
+
+.Description {
+    width: 70%;
+}
+
+.CollectionItemsList {
+    width: 100%;
+}
